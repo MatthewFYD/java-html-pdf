@@ -1,18 +1,18 @@
 # java-html-pdf
 
-# 解决场景
+## 解决场景
 使用java打印动态数据的pdf文件
 
 
 
-# 方案优点
+## 方案优点
 1.纯html编写，避免繁杂且不直观的java api操作，java只做转换和提供数据源，不参与pdf中渲染逻辑控制
 
 2.使用vue进行数据映射和页面渲染，符合前端开发思路，前后分离
 
 
 
-# 运行路线
+## 运行路线
 1.java中带id访问基于vue的ssr服务nuxt
 
 2.nuxt中使用之前的id回调java获取业务数据
@@ -25,23 +25,23 @@
 
 
 
-# 准备
+## 准备
 1.java8(本人使用)
 
 2.node10(本人使用)
 
 
 
-# 快速开始
-需要端口8080和3000，请避免端口冲突
+## 快速开始
+***需要端口8080和3000，请避免端口冲突***
 
 1.运行spring boot应用JavaHtmlPdfApplication
 
-2.$ cd nuxt-pdf-template
+2.`$ cd nuxt-pdf-template`
 
-3.$ npm i
+3.`$ npm i`
 
-4.$ npm run dev
+4.`$ npm run dev`
 
 5.访问 http://localhost:8080/java-html-pdf/index.html 输入ID点击下载pdf 或访问 http://localhost:3000/module1/page1/idxxx 直接访问页面
 
@@ -49,7 +49,7 @@
 
 
 
-# 技术栈
+## 技术栈
 1.java (废话)
 
 2.vue https://github.com/vuejs/vue
@@ -64,14 +64,14 @@
 
 
 
-# 需要掌握的非常规知识点
+## 需要掌握的非常规知识点
 1.字体基础知识
 
 2.了解px等像素单位和pt等绝对单位的区别，在打印中基本只会使用百分比和绝对单位
 
 
 
-# 注意事项
+## 注意事项
 与样式相关的事项大多都是由于itext解析并没有浏览器那么完美造成的，所以碰到布局问题不要怀疑你的代码，换一种写法总是能达到目的的
 
 1.不要使用像素单位，一定要使用绝对物理单位pt
@@ -98,12 +98,12 @@
 
 
 
-# 未完成的功能
+## 未完成的功能
 1.如果使用echarts等图标功能应该怎么做，因为vue ssr是node环境，没有document，不能进行图表api调用
 puppeteer https://github.com/GoogleChrome/puppeteer 可以在node端模拟出浏览器环境，有时间我研究一下
 
 
 
-# 结语
+## 结语
 这只是一种解决问题的思路，后端可以不用java，前端也可以不用vue，如果帮到您了，请点个星
 
