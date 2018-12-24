@@ -1,7 +1,7 @@
 # java-html-pdf
 
 ## 解决场景
-使用java打印动态数据的pdf文件
+使用java生成动态数据的pdf文件
 
 
 
