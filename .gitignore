@@ -1,0 +1,8 @@
+*.log
+*.iml
+.idea/
+target/
+environment.ts
+.nuxt/
+*.log.*
+package-lock.json

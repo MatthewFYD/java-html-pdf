@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>java-html-pdf</title>
+    <script>
+        function downloadModule1Page1() {
+            window.location.href = "http://localhost:8080/java-html-pdf/pdfDownload/module1Page1/" + document.getElementById("module1Page1Text").value;
+        }
+
+        function downloadModule1Page2() {
+            window.location.href = "http://localhost:8080/java-html-pdf/pdfDownload/module1Page2/" + document.getElementById("module1Page2Text").value;
+        }
+
+        function downloadModule2Page1() {
+            window.location.href = "http://localhost:8080/java-html-pdf/pdfDownload/module2Page1/" + document.getElementById("module2Page1Text").value;
+        }
+
+        function downloadModule2Page2() {
+            window.location.href = "http://localhost:8080/java-html-pdf/pdfDownload/module2Page2/" + document.getElementById("module2Page2Text").value;
+        }
+    </script>
+</head>
+<body>
+<div>
+    module1 page1 id：<input id="module1Page1Text" type="text">
+    <button type="button" onclick="downloadModule1Page1()">download</button>
+</div>
+<div>
+    module1 page2 id：<input id="module1Page2Text" type="text">
+    <button type="button" onclick="downloadModule1Page2()">download</button>
+</div>
+<div>
+    module2 page1 id：<input id="module2Page1Text" type="text">
+    <button type="button" onclick="downloadModule2Page1()">download</button>
+</div>
+<div>
+    module2 page2 id：<input id="module2Page2Text" type="text">
+    <button type="button" onclick="downloadModule2Page2()">download</button>
+</div>
+</body>
+</html>

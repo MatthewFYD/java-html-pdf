@@ -1,0 +1,84 @@
+{
+  "name": "嘿嘿嘿",
+  "mobile": "138****1122",
+  "companyName": "保护伞",
+  "salesName": "张三",
+  "jzcode": "JY00100000",
+  "geneCode": "0030471488",
+  "subhealthCode": "0033055588",
+  "packageGroupName": "精准体检01",
+  "createdTime": 1545480744000,
+  "subhealthRisk": [
+    "心律失常",
+    "肠道菌群失调",
+    "胰岛素依赖型糖尿病",
+    "鼻炎",
+    "原发性高血压",
+    "心肌硬化症",
+    "膀胱肾盂炎",
+    "甲状腺功能减退",
+    "十二指肠炎",
+    "膀胱炎"
+  ],
+  "geneRisk": [
+    "烟草致癌",
+    "酒精中毒",
+    "黄曲霉素代谢",
+    "胆固醇代谢",
+    "自由基代谢与氧化损伤修复",
+    "1型糖尿病",
+    "抑郁症",
+    "咖啡因成瘾",
+    "酒精成瘾",
+    "铅中毒",
+    "黑色素沉积与代谢",
+    "能量代谢",
+    "2型糖尿病",
+    "烟草成瘾",
+    "紫外线损伤修复"
+  ],
+  "pkgExamType": "male-b",
+  "diseaseType": "GENE_SUBHEALTH",
+  "jzexamAdvicePrjGroupVoList": [
+    {
+      "hcitemCategory2": "其他",
+      "hcitemName": "诊室血压(连续3次)、精神专科"
+    },
+    {
+      "hcitemCategory2": "糖及其代谢物测定",
+      "hcitemName": "糖化血红蛋白(HbA1c)、糖化血清蛋白(GSP)、餐后2h血糖(PBG)"
+    },
+    {
+      "hcitemCategory2": "激素测定",
+      "hcitemName": "促甲状腺激素(TSH)、促甲状腺激素(TSH)、三碘甲状原氨酸(T3)、三碘甲状原氨酸(T3)、甲状腺素(T4)、甲状腺素(T4)、游离三碘甲状原氨酸(FT3)、游离甲状腺素(FT4)、胰岛素、C肽(C-P)"
+    },
+    {
+      "hcitemCategory2": "肾脏疾病的实验诊断",
+      "hcitemName": "微量白蛋白(mAlb)"
+    },
+    {
+      "hcitemCategory2": "血脂及脂蛋白测定",
+      "hcitemName": "高密度脂蛋白胆固醇(HDL-C)、低密度脂蛋白胆固醇(LDL-C)、小而密低密度脂蛋白(sdLDL)"
+    },
+    {
+      "hcitemCategory2": "超声",
+      "hcitemName": "颈动脉超声、超声心动图、甲状腺超声"
+    },
+    {
+      "hcitemCategory2": "其它酶类测定",
+      "hcitemName": "肌酸激酶(CK)、乳酸脱氢酶(LDH)"
+    },
+    {
+      "hcitemCategory2": "心肌疾病的实验诊断",
+      "hcitemName": "肌酸激酶同工酶活性(CK-MB)、N端-B型钠尿肽前体(NT-ProBNP)、B型钠尿肽(BNP)、同型半胱氨酸(Hcy)"
+    },
+    {
+      "hcitemCategory2": "自身抗体检测",
+      "hcitemName": "抗胰岛细胞抗体(ICA)检测、抗甲状腺球蛋白抗体(TGAb)、抗甲状腺过氧化物酶抗体(TPOAb)、抗谷氨酸脱羧酶(GAD)抗体检测"
+    },
+    {
+      "hcitemCategory2": "无机物质测定及血气分析",
+      "hcitemName": "钾(K)、钠(Na)、氯(Cl)"
+    }
+  ]
+}
